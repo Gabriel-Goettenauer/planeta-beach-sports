@@ -1,0 +1,43 @@
+.header {
+  background-color: #00aeee;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+
+.image-container {
+  text-align: center;
+  max-width: 45%;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-container p {
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
