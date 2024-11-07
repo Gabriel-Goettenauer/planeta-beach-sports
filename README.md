@@ -13,8 +13,8 @@ link do figma: https://www.figma.com/design/tHAa2BxIntoJO1cznDu1rN/Untitled?t=9T
 ## Checklist de Requisitos
 
 ### RA1 - Prototipar e projetar interfaces gráficas de usuário, considerando princípios de usabilidade e experiência do usuário.
-- [ ] **ID1**: O aluno desenvolveu protótipos de interfaces que demonstram compreensão das diretrizes de usabilidade.
-- [ ] **ID2**: O aluno projetou interfaces responsivas que se adaptam a diferentes tamanhos de tela.
+- [x] **ID1**: O aluno desenvolveu protótipos de interfaces que demonstram compreensão das diretrizes de usabilidade.
+- [x] **ID2**: O aluno projetou interfaces responsivas que se adaptam a diferentes tamanhos de tela.
 
 ### RA2 - Criar e reutilizar componentes em frameworks frontend, desenvolvendo interfaces modulares, responsivas e estilizadas.
 - [ ] **ID3**: O aluno desenvolveu componentes reutilizáveis que se adaptam de maneira responsiva.
