@@ -1,27 +1,60 @@
-# Raquetes
+# planeta-beach
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
+O frontend da aplicação foi desenvolvido com Angular e o backend foi simulado pela implementação de uma API Fake, usando o JSON Server.
 
-## Development server
+## Endereço de Deploy
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Acesse a aplicação: 
 
-## Code scaffolding
+## Protótipo
+link do figma: https://www.figma.com/design/tHAa2BxIntoJO1cznDu1rN/Untitled?t=9TetjkrVtwa9LGEU-1
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Checklist de Requisitos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### RA1 - Prototipar e projetar interfaces gráficas de usuário, considerando princípios de usabilidade e experiência do usuário.
+- [x] **ID1**: O aluno desenvolveu protótipos de interfaces que demonstram compreensão das diretrizes de usabilidade.
+- [x] **ID2**: O aluno projetou interfaces responsivas que se adaptam a diferentes tamanhos de tela.
 
-## Running unit tests
+### RA2 - Criar e reutilizar componentes em frameworks frontend, desenvolvendo interfaces modulares, responsivas e estilizadas.
+- [x] **ID3**: O aluno desenvolveu componentes reutilizáveis que se adaptam de maneira responsiva.
+- [x] **ID4**: O aluno incorporou componentes de frameworks CSS para aprimorar a aparência e funcionalidade da aplicação.
+- [ ] **ID5**: O aluno aplicou diretivas estruturais para renderizar elementos de forma condicional.
+- [ ] **ID6**: O aluno utilizou diretivas estruturais para repetir elementos dinamicamente.
+- [ ] **ID7**: O aluno aplicou Pipes para formatar a apresentação de dados.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### RA3 - Sincronizar dados entre a interface gráfica e o modelo de dados, aplicando técnicas de binding.
+- [ ] **ID8**: O aluno aplicou one-way data binding (Interpolation e Property Binding).
+- [ ] **ID9**: O aluno aplicou event binding para capturar eventos do usuário.
+- [ ] **ID10**: O aluno implementou two-way data binding.
+- [ ] **ID11**: O aluno fez uso de variáveis de template para manipulação dinâmica dos dados.
 
-## Running end-to-end tests
+### RA4 - Implementar comunicação eficaz entre componentes, utilizando padrões de comunicação e serviços.
+- [ ] **ID12**: O aluno criou comunicação entre componentes via serviços usando injeção de dependência.
+- [ ] **ID13**: O aluno utilizou as diretivas @Input e @Output para comunicação hierárquica.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### RA5 - Criar interfaces de navegação intuitivas e responsivas, implementando roteamento em SPAs.
+- [ ] **ID14**: O aluno configurou rotas para diferentes partes da aplicação.
+- [ ] **ID15**: O aluno demonstrou a habilidade de passar dados entre componentes via parâmetros de rotas.
+- [ ] **ID16**: O aluno criou uma estrutura de navegação aninhada.
+- [ ] **ID17**: O aluno aplicou guardas de rotas para controlar o acesso a rotas específicas.
 
-## Further help
+### RA6 - Realizar requisições assíncronas para serviços web, compreendendo protocolos e formatos de dados.
+- [ ] **ID18**: O aluno fez requisições assíncronas a uma API pública.
+- [ ] **ID19**: O aluno fez requisições assíncronas a uma API simulada (GET, POST, PUT, PATCH e DELETE).
+- [ ] **ID20**: O aluno tratou respostas de sucesso e erros adequadamente.
+- [ ] **ID21**: O aluno aplicou validações de entrada nos formulários.
+- [ ] **ID22**: O aluno desabilitou o botão de submit quando os campos eram inválidos.
+- [ ] **ID23**: O aluno utilizou Promises para tratar respostas assíncronas.
+- [ ] **ID24**: O aluno utilizou Observables para tratar respostas assíncronas.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### RA7 - Gerenciar o código-fonte de maneira eficiente, implementando boas práticas de controle de versão.
+- [ ] **ID25**: O aluno criou um repositório no GitHub usando Gitflow (branches "main" e "develop").
+- [ ] **ID26**: O aluno colaborou de maneira eficaz, resolvendo conflitos e fazendo merges adequadamente.
+- [ ] **ID27**: O aluno configurou e executou o processo de build e realizou o deploy da aplicação.
+
+## Tecnologias Utilizadas
+- Angular
+- JSON Server (para API Fake)
+- GitHub Pages (para deploy)
+
