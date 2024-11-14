@@ -5,8 +5,17 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  nome = 'Planeta Beach';
 
+  exibirMensagem() {
+    alert('Bem-vindo ao Planeta Beach!');
+  }
+
+
+  entrar() {
+    alert('Bem vindo a sua conta');
+  }
 }
