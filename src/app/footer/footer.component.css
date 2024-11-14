@@ -1,5 +1,5 @@
 .page-footer {
-  background-color: #1a237e;
+  background-color: #000000;
   color: #fff;
   padding: 40px 0;
   font-family: 'Arial', sans-serif;
@@ -42,7 +42,7 @@
 }
 
 .footer-copyright {
-  background-color: #0d47a1;
+  background-color: #050505;
   padding: 10px 0;
   text-align: center;
   font-size: 0.9em;
