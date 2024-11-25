@@ -17,8 +17,8 @@ link do figma: https://www.figma.com/design/tHAa2BxIntoJO1cznDu1rN/Untitled?t=9T
 - [x] **ID2**: O aluno projetou interfaces responsivas que se adaptam a diferentes tamanhos de tela.
 
 ### RA2 - Criar e reutilizar componentes em frameworks frontend, desenvolvendo interfaces modulares, responsivas e estilizadas.
-- [ ] **ID3**: O aluno desenvolveu componentes reutilizáveis que se adaptam de maneira responsiva.
-- [ ] **ID4**: O aluno incorporou componentes de frameworks CSS para aprimorar a aparência e funcionalidade da aplicação.
+- [x] **ID3**: O aluno desenvolveu componentes reutilizáveis que se adaptam de maneira responsiva.
+- [x] **ID4**: O aluno incorporou componentes de frameworks CSS para aprimorar a aparência e funcionalidade da aplicação.
 - [ ] **ID5**: O aluno aplicou diretivas estruturais para renderizar elementos de forma condicional.
 - [ ] **ID6**: O aluno utilizou diretivas estruturais para repetir elementos dinamicamente.
 - [ ] **ID7**: O aluno aplicou Pipes para formatar a apresentação de dados.
