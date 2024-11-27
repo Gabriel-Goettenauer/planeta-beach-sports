@@ -14,7 +14,7 @@ export class MainComponent {
   produtos = [
     { id: 1, nome: 'Raquete Beach Tennis BAZOOKA 6.0', preco: 2559.00, imagem: '/assets/raka1.svg' },
     { id: 2, nome: 'Raquete Beach Tennis PRO X', preco: 2000.00, imagem: '/assets/raka2.svg' },
-    { id: 3, nome: 'Raquete Beach Tennis SUPERLITE', preco: 1500.00, imagem: '/assets/raka4.svg' },
+    { id: 3, nome: 'Raquete Beach Tennis SUPERLITE', preco: 1500.00, imagem: '/assets/raka3.svg' },
   ];
 
   constructor(private router: Router) {}
