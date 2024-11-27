@@ -1,0 +1,24 @@
+<main class="main-content">
+  <img src="/assets/brabo.png" alt="banner" class="banner-image">
+  <img src="/assets/text-logo.svg" alt="text" class="text-logo">
+
+  <div class="row">
+ 
+    <div class="col s12 m4" *ngFor="let produto of produtos">
+      <div class="card">
+        <div class="card-image">
+          <img [src]="produto.imagem" alt="Produto">
+        </div>
+        <div class="card-content">
+          <p>{{ produto.nome }}</p>
+          <a href="#">{{ produto.preco | currency }}</a>
+        </div>
+        <div class="card-action">
+          <a [routerLink]="['/produto', produto.id]">Comprar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button (click)="verMais('raquetes')">Ver Mais</button>
+</main>
