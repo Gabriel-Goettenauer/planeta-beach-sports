@@ -19,15 +19,15 @@ link do figma: https://www.figma.com/design/tHAa2BxIntoJO1cznDu1rN/Untitled?t=9T
 ### RA2 - Criar e reutilizar componentes em frameworks frontend, desenvolvendo interfaces modulares, responsivas e estilizadas.
 - [x] **ID3**: O aluno desenvolveu componentes reutilizáveis que se adaptam de maneira responsiva.
 - [x] **ID4**: O aluno incorporou componentes de frameworks CSS para aprimorar a aparência e funcionalidade da aplicação.
-- [ ] **ID5**: O aluno aplicou diretivas estruturais para renderizar elementos de forma condicional.
-- [ ] **ID6**: O aluno utilizou diretivas estruturais para repetir elementos dinamicamente.
+- [x] **ID5**: O aluno aplicou diretivas estruturais para renderizar elementos de forma condicional.
+- [x] **ID6**: O aluno utilizou diretivas estruturais para repetir elementos dinamicamente.
 - [ ] **ID7**: O aluno aplicou Pipes para formatar a apresentação de dados.
 
 ### RA3 - Sincronizar dados entre a interface gráfica e o modelo de dados, aplicando técnicas de binding.
-- [ ] **ID8**: O aluno aplicou one-way data binding (Interpolation e Property Binding).
+- [x] **ID8**: O aluno aplicou one-way data binding (Interpolation e Property Binding).
 - [ ] **ID9**: O aluno aplicou event binding para capturar eventos do usuário.
 - [ ] **ID10**: O aluno implementou two-way data binding.
-- [ ] **ID11**: O aluno fez uso de variáveis de template para manipulação dinâmica dos dados.
+- [x] **ID11**: O aluno fez uso de variáveis de template para manipulação dinâmica dos dados.
 
 ### RA4 - Implementar comunicação eficaz entre componentes, utilizando padrões de comunicação e serviços.
 - [ ] **ID12**: O aluno criou comunicação entre componentes via serviços usando injeção de dependência.
