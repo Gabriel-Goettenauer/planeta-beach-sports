@@ -25,8 +25,8 @@ link do figma: https://www.figma.com/design/tHAa2BxIntoJO1cznDu1rN/Untitled?t=9T
 
 ### RA3 - Sincronizar dados entre a interface gráfica e o modelo de dados, aplicando técnicas de binding.
 - [x] **ID8**: O aluno aplicou one-way data binding (Interpolation e Property Binding).
-- [ ] **ID9**: O aluno aplicou event binding para capturar eventos do usuário.
-- [ ] **ID10**: O aluno implementou two-way data binding.
+- [x] **ID9**: O aluno aplicou event binding para capturar eventos do usuário.
+- [x] **ID10**: O aluno implementou two-way data binding.
 - [x] **ID11**: O aluno fez uso de variáveis de template para manipulação dinâmica dos dados.
 
 ### RA4 - Implementar comunicação eficaz entre componentes, utilizando padrões de comunicação e serviços.
