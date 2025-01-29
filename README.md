@@ -42,15 +42,15 @@ link do figma: https://www.figma.com/design/tHAa2BxIntoJO1cznDu1rN/Untitled?t=9T
 ### RA6 - Realizar requisições assíncronas para serviços web, compreendendo protocolos e formatos de dados.
 - [ ] **ID18**: O aluno fez requisições assíncronas a uma API pública.
 - [ ] **ID19**: O aluno fez requisições assíncronas a uma API simulada (GET, POST, PUT, PATCH e DELETE).
-- [ ] **ID20**: O aluno tratou respostas de sucesso e erros adequadamente.
-- [ ] **ID21**: O aluno aplicou validações de entrada nos formulários.
-- [ ] **ID22**: O aluno desabilitou o botão de submit quando os campos eram inválidos.
+- [x] **ID20**: O aluno tratou respostas de sucesso e erros adequadamente.
+- [x] **ID21**: O aluno aplicou validações de entrada nos formulários.
+- [x] **ID22**: O aluno desabilitou o botão de submit quando os campos eram inválidos.
 - [ ] **ID23**: O aluno utilizou Promises para tratar respostas assíncronas.
 - [ ] **ID24**: O aluno utilizou Observables para tratar respostas assíncronas.
 
 ### RA7 - Gerenciar o código-fonte de maneira eficiente, implementando boas práticas de controle de versão.
-- [ ] **ID25**: O aluno criou um repositório no GitHub usando Gitflow (branches "main" e "develop").
-- [ ] **ID26**: O aluno colaborou de maneira eficaz, resolvendo conflitos e fazendo merges adequadamente.
+- [x] **ID25**: O aluno criou um repositório no GitHub usando Gitflow (branches "main" e "develop").
+- [x] **ID26**: O aluno colaborou de maneira eficaz, resolvendo conflitos e fazendo merges adequadamente.
 - [ ] **ID27**: O aluno configurou e executou o processo de build e realizou o deploy da aplicação.
 
 ## Tecnologias Utilizadas
