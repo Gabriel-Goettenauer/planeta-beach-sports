@@ -34,7 +34,7 @@ link do figma: https://www.figma.com/design/tHAa2BxIntoJO1cznDu1rN/Untitled?t=9T
 - [ ] **ID13**: O aluno utilizou as diretivas @Input e @Output para comunicação hierárquica.
 
 ### RA5 - Criar interfaces de navegação intuitivas e responsivas, implementando roteamento em SPAs.
-- [ ] **ID14**: O aluno configurou rotas para diferentes partes da aplicação.
+- [x] **ID14**: O aluno configurou rotas para diferentes partes da aplicação.
 - [ ] **ID15**: O aluno demonstrou a habilidade de passar dados entre componentes via parâmetros de rotas.
 - [ ] **ID16**: O aluno criou uma estrutura de navegação aninhada.
 - [ ] **ID17**: O aluno aplicou guardas de rotas para controlar o acesso a rotas específicas.
