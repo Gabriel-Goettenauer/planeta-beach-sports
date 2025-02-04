@@ -1,18 +1,4 @@
 <div class="container">
- 
-  <div class="login-section">
-    <h2>Entrar</h2>
-    <form #loginForm="ngForm" (ngSubmit)="onLogin(loginForm)">
-      <label for="login-email">Nome de usuário ou e-mail</label>
-      <input type="text" id="login-email" name="email" ngModel required>
-
-      <label for="login-senha">Senha</label>
-      <input type="password" id="login-senha" name="senha" ngModel required>
-
-      <button type="submit" [disabled]="loginForm.invalid">Entrar</button>
-    </form>
-  </div>
-
 
   <div class="register-section">
     <h2>Cadastre-se</h2>

@@ -10,22 +10,56 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./cadastro.component.css'],
 })
 export class CadastroComponent {
-  onSubmit(form: any) {
+  apiUrl = 'http://localhost:3000/usuarios'; 
+
+  async onSubmit(form: any) {
     if (form.valid) {
       const userData = {
         nome: form.value.nome,
         email: form.value.email,
         senha: form.value.senha,
       };
-      localStorage.setItem('user', JSON.stringify(userData));
-      alert('Usuário cadastrado com sucesso!');
-      form.reset();
+
+      try {
+        const response = await fetch(this.apiUrl, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(userData),
+        });
+
+        if (!response.ok) {
+          throw new Error('Erro ao cadastrar usuário');
+        }
+
+        alert('Usuário cadastrado com sucesso!');
+        form.reset();
+      } catch (error) {
+        console.error('Erro:', error);
+        alert('Erro ao cadastrar usuário');
+      }
     }
   }
 
-  onLogin(form: any) {
+  async onLogin(form: any) {
     if (form.valid) {
-      alert('Login realizado com sucesso!');
+      try {
+        
+        const response = await fetch(`${this.apiUrl}?email=${form.value.email}`);
+        const users = await response.json();
+
+        
+        if (users.length > 0 && users[0].senha === form.value.senha) {
+          alert('Login realizado com sucesso!');
+        } else {
+          alert('E-mail ou senha inválidos.');
+        }
+      } catch (error) {
+        console.error('Erro:', error);
+        alert('Erro ao realizar login.');
+      }
+      
       form.reset();
     }
   }
