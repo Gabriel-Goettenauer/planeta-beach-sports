@@ -35,13 +35,13 @@ link do figma: https://www.figma.com/design/tHAa2BxIntoJO1cznDu1rN/Untitled?t=9T
 
 ### RA5 - Criar interfaces de navegação intuitivas e responsivas, implementando roteamento em SPAs.
 - [x] **ID14**: O aluno configurou rotas para diferentes partes da aplicação.
-- [ ] **ID15**: O aluno demonstrou a habilidade de passar dados entre componentes via parâmetros de rotas.
+- [x] **ID15**: O aluno demonstrou a habilidade de passar dados entre componentes via parâmetros de rotas.
 - [ ] **ID16**: O aluno criou uma estrutura de navegação aninhada.
 - [ ] **ID17**: O aluno aplicou guardas de rotas para controlar o acesso a rotas específicas.
 
 ### RA6 - Realizar requisições assíncronas para serviços web, compreendendo protocolos e formatos de dados.
 - [ ] **ID18**: O aluno fez requisições assíncronas a uma API pública.
-- [ ] **ID19**: O aluno fez requisições assíncronas a uma API simulada (GET, POST, PUT, PATCH e DELETE).
+- [x] **ID19**: O aluno fez requisições assíncronas a uma API simulada (GET, POST, PUT, PATCH e DELETE).
 - [x] **ID20**: O aluno tratou respostas de sucesso e erros adequadamente.
 - [x] **ID21**: O aluno aplicou validações de entrada nos formulários.
 - [x] **ID22**: O aluno desabilitou o botão de submit quando os campos eram inválidos.
