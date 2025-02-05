@@ -1,0 +1,28 @@
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="header.component.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <img src="/assets/logo.svg" alt="Logo Planeta Beach" class="logo">
+
+      <div class="search-bar">
+        <input type="text" placeholder="Insira sua pesquisa">
+        <i class="material-icons">search</i>
+      </div>
+
+      <ul class="right">
+       
+        <li><a routerLink="/cadastro">Criar Conta</a></li>
+        <li><a href="#" (click)="entrar()">Entrar</a></li> 
+        <li><img src="/assets/cart.svg" alt="Carrinho" class="cart-icon"></li>
+      </ul>
+    </div>
+  </nav>
+
+  <h1>Bem-vindo ao {{ nome }}!</h1>
+</body>

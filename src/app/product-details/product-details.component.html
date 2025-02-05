@@ -1,0 +1,12 @@
+<div *ngIf="produto; else produtoNaoEncontrado">
+  <div class="product-detail">
+    <img [src]="produto.imagem" alt="{{ produto.nome }}" class="product-image">
+    <h1>{{ produto.nome }}</h1>
+    <p>{{ produto.preco | currency }}</p>
+    <button>Comprar</button>
+  </div>
+</div>
+
+<ng-template #produtoNaoEncontrado>
+  <h2>Produto não encontrado.</h2>
+</ng-template>
