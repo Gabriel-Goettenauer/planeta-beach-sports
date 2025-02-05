@@ -33,11 +33,11 @@ export class CadastroComponent {
           throw new Error('Erro ao cadastrar usuário');
         }
 
-        alert('Usuário cadastrado com sucesso!');
+        alert('Usuário cadastrado com sucesso!!');
         form.reset();
       } catch (error) {
         console.error('Erro:', error);
-        alert('Erro ao cadastrar usuário');
+        alert('Erro ao cadastrar usuário!');
       }
     }
   }
