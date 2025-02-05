@@ -1,16 +1,20 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { firstValueFrom } from 'rxjs';
 
 @Component({
   selector: 'app-cadastro',
   standalone: true,
-  imports: [FormsModule, CommonModule],
+  imports: [FormsModule, CommonModule, HttpClientModule], 
   templateUrl: './cadastro.component.html',
   styleUrls: ['./cadastro.component.css'],
 })
 export class CadastroComponent {
   apiUrl = 'http://localhost:3000/usuarios'; 
+
+  constructor(private http: HttpClient) {}
 
   async onSubmit(form: any) {
     if (form.valid) {
@@ -21,17 +25,8 @@ export class CadastroComponent {
       };
 
       try {
-        const response = await fetch(this.apiUrl, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(userData),
-        });
-
-        if (!response.ok) {
-          throw new Error('Erro ao cadastrar usuário');
-        }
+        // Convertendo Observable para Promise
+        await firstValueFrom(this.http.post(this.apiUrl, userData));
 
         alert('Usuário cadastrado com sucesso!!');
         form.reset();
@@ -45,11 +40,9 @@ export class CadastroComponent {
   async onLogin(form: any) {
     if (form.valid) {
       try {
-        
-        const response = await fetch(`${this.apiUrl}?email=${form.value.email}`);
-        const users = await response.json();
+        // Convertendo Observable para Promise
+        const users: any = await firstValueFrom(this.http.get(`${this.apiUrl}?email=${form.value.email}`));
 
-        
         if (users.length > 0 && users[0].senha === form.value.senha) {
           alert('Login realizado com sucesso!');
         } else {
@@ -59,7 +52,7 @@ export class CadastroComponent {
         console.error('Erro:', error);
         alert('Erro ao realizar login.');
       }
-      
+
       form.reset();
     }
   }
