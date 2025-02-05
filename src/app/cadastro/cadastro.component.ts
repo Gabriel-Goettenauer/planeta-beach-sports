@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { HttpClient, HttpClientModule } from '@angular/common/http';  // Importa o HttpClient
-import { firstValueFrom } from 'rxjs'; // Importa função para converter Observable em Promise
+import { HttpClient, HttpClientModule } from '@angular/common/http'; 
+import { firstValueFrom } from 'rxjs';
 
 @Component({
   selector: 'app-cadastro',
   standalone: true,
-  imports: [FormsModule, CommonModule, HttpClientModule], // Adiciona HttpClientModule aqui
+  imports: [FormsModule, CommonModule, HttpClientModule],
   templateUrl: './cadastro.component.html',
   styleUrls: ['./cadastro.component.css'],
 })
