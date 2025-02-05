@@ -21,7 +21,7 @@ link do figma: https://www.figma.com/design/tHAa2BxIntoJO1cznDu1rN/Untitled?t=9T
 - [x] **ID4**: O aluno incorporou componentes de frameworks CSS para aprimorar a aparência e funcionalidade da aplicação.
 - [x] **ID5**: O aluno aplicou diretivas estruturais para renderizar elementos de forma condicional.
 - [x] **ID6**: O aluno utilizou diretivas estruturais para repetir elementos dinamicamente.
-- [ ] **ID7**: O aluno aplicou Pipes para formatar a apresentação de dados.
+- [x] **ID7**: O aluno aplicou Pipes para formatar a apresentação de dados.
 
 ### RA3 - Sincronizar dados entre a interface gráfica e o modelo de dados, aplicando técnicas de binding.
 - [x] **ID8**: O aluno aplicou one-way data binding (Interpolation e Property Binding).
@@ -45,8 +45,8 @@ link do figma: https://www.figma.com/design/tHAa2BxIntoJO1cznDu1rN/Untitled?t=9T
 - [x] **ID20**: O aluno tratou respostas de sucesso e erros adequadamente.
 - [x] **ID21**: O aluno aplicou validações de entrada nos formulários.
 - [x] **ID22**: O aluno desabilitou o botão de submit quando os campos eram inválidos.
-- [ ] **ID23**: O aluno utilizou Promises para tratar respostas assíncronas.
-- [ ] **ID24**: O aluno utilizou Observables para tratar respostas assíncronas.
+- [x] **ID23**: O aluno utilizou Promises para tratar respostas assíncronas.
+- [x] **ID24**: O aluno utilizou Observables para tratar respostas assíncronas.
 
 ### RA7 - Gerenciar o código-fonte de maneira eficiente, implementando boas práticas de controle de versão.
 - [x] **ID25**: O aluno criou um repositório no GitHub usando Gitflow (branches "main" e "develop").
