@@ -25,7 +25,7 @@ export class CadastroComponent {
       };
 
       try {
-        // Convertendo Observable para Promise
+        
         await firstValueFrom(this.http.post(this.apiUrl, userData));
 
         alert('Usuário cadastrado com sucesso!!');
@@ -40,7 +40,7 @@ export class CadastroComponent {
   async onLogin(form: any) {
     if (form.valid) {
       try {
-        // Convertendo Observable para Promise
+        
         const users: any = await firstValueFrom(this.http.get(`${this.apiUrl}?email=${form.value.email}`));
 
         if (users.length > 0 && users[0].senha === form.value.senha) {
