@@ -6,12 +6,12 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class CadastroService {
-  private apiUrl = 'http://localhost:3000/usuarios'; // URL do JSON Server
+  private apiUrl = 'http://localhost:3000/usuarios';
 
   constructor(private http: HttpClient) {}
 
-  // Função para cadastrar o usuário
+  
   cadastrarUsuario(usuario: any): Observable<any> {
-    return this.http.post(this.apiUrl, usuario);  // Envia o usuário para o servidor
+    return this.http.post(this.apiUrl, usuario); 
   }
 }

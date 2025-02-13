@@ -28,4 +28,31 @@
       <button type="submit" [disabled]="cadastroForm.invalid">Cadastrar</button>
     </form>
   </div>
+
+  
+  <div class="update-section">
+    <h2>Gerenciar Conta</h2>
+    <form #updateForm="ngForm" (ngSubmit)="onUpdate(updateForm)">
+      <label for="userId">ID do Usuário</label>
+      <input type="text" id="userId" name="id" ngModel required>
+
+      <label for="novoNome">Novo Nome</label>
+      <input type="text" id="novoNome" name="nome" ngModel>
+
+      <label for="novoEmail">Novo E-mail</label>
+      <input type="email" id="novoEmail" name="email" ngModel>
+
+      <label for="novaSenha">Nova Senha</label>
+      <input type="password" id="novaSenha" name="senha" ngModel>
+
+      <button type="submit">Atualizar Usuário</button>
+    </form>
+
+    <form #deleteForm="ngForm" (ngSubmit)="onDelete(deleteForm)">
+      <label for="deleteId">ID do Usuário</label>
+      <input type="text" id="deleteId" name="id" ngModel required>
+      <button type="submit">Excluir Usuário</button>
+    </form>
+  </div>
+
 </div>
